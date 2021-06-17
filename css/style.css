@@ -1,0 +1,267 @@
+/*        div --- content division element           */
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+/* } */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1{
+  color: #274c77;
+  font-size: 5.625rem;
+  font-weight:500;
+  font-family: 'Sacramento', cursive;
+  letter-spacing: 2.5px;
+  margin: 0 auto 0 auto;
+}
+.top-container{
+  background-color: #90e0ef;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom:0;
+}
+h2{
+  color: #274c77;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #274c77;
+  text-align: left;
+}
+p{
+    text-align:center;
+    line-height: 2;
+
+}
+.out{
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.design {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  top:20px;
+  right:150px;
+  width:15%;
+  height:15%;
+}
+.firstname{
+
+}
+.bottom-cloud{
+  position: absolute;
+  left:40px;
+  width:20%;
+  height:20%;
+}
+.mountain{
+  height:21.875rem;
+  width: 25rem;
+}
+
+.profilepic{
+  width:15%;
+  height:10%;
+  border-radius: 100%;
+}
+.skill-row {
+    width:50%;
+    margin:100px auto 100px auto;
+
+}
+.skill-img{
+    width:30%;
+    height:30%;
+    float: left;
+    margin-right: 80px;
+    position: relative;
+    bottom: 20px;
+}
+.skill-img2 {
+    width:12%;
+    height:25%;
+    float: right;
+    margin-left: 30px;
+    position: absolute;
+    left:700px;;
+
+}
+.profile{
+    margin:0 auto;
+}
+ul{
+    text-align: left;
+}
+.coursework{
+    text-align: justify;
+}
+.skills {
+    margin-bottom: 50px;
+    background-color: #caf0f8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+hr{
+    margin:100px auto;
+    border: dotted #979dac 6px;
+    border-bottom: none;
+    width: 5%;
+}
+.contact-me{
+    background-color: #f6f6f6;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.devskill{
+
+}
+.skill-img3{
+    height:33%;
+    width:33%;
+    float:left;
+    margin-right: 80px;
+    position: relative;
+    top:10px;
+}
+.middle-container{
+    margin:100px 0 0 auto;
+    padding-top: 35px;
+}
+.bottom-container{
+    background-color:#90e0ef;
+    margin:0;
+    padding-top: 25px;
+}
+.hello{
+    color: #11999E;
+}
+.intro{
+    width:28%;
+    margin:auto;
+    line-height: 2;
+}
+li{
+    line-height: 2;
+}
+.q{
+    margin:40px auto 60px auto;
+    background-color: #f6f6f6;
+}
+.middle-container{
+    background-color: #f6f6f6;
+    margin-top:0;
+}
+.btn {
+  background: #90e0ef;
+  background-image: -webkit-linear-gradient(top, #90e0ef, #90e0ef);
+  background-image: -moz-linear-gradient(top, #90e0ef, #90e0ef);
+  background-image: -ms-linear-gradient(top, #90e0ef, #90e0ef);
+  background-image: -o-linear-gradient(top, #90e0ef, #90e0ef);
+  background-image: linear-gradient(to bottom, #90e0ef, #90e0ef);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9ceaef;
+  background-image: -webkit-linear-gradient(top, #9ceaef, #90e0ef);
+  background-image: -moz-linear-gradient(top, #9ceaef, #90e0ef);
+  background-image: -ms-linear-gradient(top, #9ceaef, #90e0ef);
+  background-image: -o-linear-gradient(top, #9ceaef, #90e0ef);
+  background-image: linear-gradient(to bottom, #9ceaef, #90e0ef);
+  text-decoration: none;
+}
+.down{
+    margin-bottom: 0;
+    padding:20px 0;
+    color:#fff;
+    font-size: 0.9rem;
+}
+a{
+    color:#1a659e;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 25px;
+    text-decoration: none;
+}
+a:hover{
+    color:#e9e3e6;
+}
+/* 1. width
+2. height
+3. padding
+4. margin */
+/* 5. text-align:center; or margin: 0 auto 0 auto; */
+/* 6. font-family */
+/* merriweather --- body(google fonts) */
+/* sacramento --- handwriting font (h1); */
+/* montserrat --- heading font h2,h3 */
+/* 7. font-size: 90px, 100% === 16px=== 1em; (USE REM INSTEAD OF EM)*/
+/* 8. font-weight; */
+/* 9. line-height; */
+
+/* img -- property --
+float:left; to make text wrap aroung image keeping image on the left; */
+
+
+/* 1. display ---- block, inline , inline-block, none(removes the element)
+    VISIBILITY --- hidden; (hides the element but preserves the space) */
+/* display elements ----
+1. block level -- <p>,<div>,<h1-h6>,
+2. inline elements <span>,<img>, <a> --- we cannot change the width of inline elements
+
+position ---- static, relative , absolute, fixed(position gets fixed if we scroll through the webpage);
+coordinates ---- (top:, bottom: , left: , right:); */
